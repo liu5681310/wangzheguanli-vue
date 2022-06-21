@@ -7,3 +7,8 @@
 
 # 王者荣耀后台管理系统
 > 目前还在制作中，有优化的地方可以提出来，大家一起学习
+
+
+- npm install 
+- npm run wzry 
+- -npm run serve
