@@ -1,4 +1,4 @@
-
+摘自别人的作品，感觉挺好玩的，可以看看作者
 <img class="lyb" src="http://lengyibai.gitee.io/img-bed/img/lyb.png" style="width:200px;margin:0 auto;border-radius:50%" />
 
 <p style="font-size:50px;font-weight:bold;width:100%;text-align:center;color:#fff;text-shadow:0 0 15px">冷弋白</p>
