@@ -1,0 +1,93 @@
+/* 淡入淡出 */
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active,
+.fade-move {
+  transition: all 0.5s;
+}
+
+.fade-leave-active {
+  position: absolute;
+}
+
+/* 侧边栏出场 */
+.sidebar-enter {
+  opacity: 0;
+  transform: translateX(50px);
+}
+
+.sidebar-leave-to {
+  opacity: 0;
+}
+
+.sidebar-leave-active,
+.sidebar-enter-active {
+  transition: all 0.25s;
+}
+
+/* 侧边栏切换路由 */
+.sidebar_router-enter {
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.sidebar_router-leave-to {
+  opacity: 0;
+}
+
+.sidebar_router-leave-active,
+.sidebar_router-enter-active {
+  transition: all 0.25s;
+}
+
+/* 圆形蒙版裁剪 */
+
+@-webkit-keyframes clip-in {
+  0% {
+    -webkit-clip-path: circle(0% at 50% 50%);
+    clip-path: circle(0% at 50% 50%);
+  }
+
+  100% {
+    -webkit-clip-path: circle(100% at 50% 50%);
+    clip-path: circle(100% at 50% 50%);
+  }
+}
+
+@keyframes clip-in {
+  0% {
+    -webkit-clip-path: circle(0% at 50% 50%);
+    clip-path: circle(0% at 50% 50%);
+  }
+
+  100% {
+    -webkit-clip-path: circle(100% at 50% 50%);
+    clip-path: circle(100% at 50% 50%);
+  }
+}
+
+@-webkit-keyframes clip-out {
+  0% {
+    -webkit-clip-path: circle(100% at 50% 50%);
+    clip-path: circle(100% at 50% 50%);
+  }
+  100% {
+    -webkit-clip-path: circle(0% at 50% 50%);
+    clip-path: circle(0% at 50% 50%);
+  }
+}
+
+@keyframes clip-out {
+  0% {
+    -webkit-clip-path: circle(100% at 50% 50%);
+    clip-path: circle(100% at 50% 50%);
+  }
+  100% {
+    -webkit-clip-path: circle(0% at 50% 50%);
+    clip-path: circle(0% at 50% 50%);
+  }
+}
